@@ -1,6 +1,7 @@
-MIT License
-
-Copyright (c) 2026 Paul Sölder
+Copyright (C) 2026 Cognition, Action, and Sustainability Unit
+University of Freiburg, Department of Psychology
+Implementation: Paul Soelder
+Supervision: Dr. Andrea Kiesel, Dr. Irina Monno
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -9,8 +10,25 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+2. Proprietary assets are excluded: this software uses proprietary assets
+   (e.g., the Haptic Touch Unity plugin), which are not included in this
+   repository and are not covered by this license.
+
+3. Some code depends on or is inspired by third-party software:
+   - Unity Experiment Framework (MIT License):
+       - Original source files are included in /Assets/UXF
+       - Copyright (c) Jack Brookes, see source headers
+       - Licensed under MIT License: you may use, modify, and distribute these
+         files under MIT terms.
+
+  - RDK plugin for JsPsych (GPL-3.0 Licence):
+       - Portions of this project’s code are inspired by the RDK plugin for
+         JsPsych (GPL-3.0, Copyright (c) 2017 Sivananda Rajananda).
+       - No GPL code is included; this repository contains independent
+         implementations.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -19,3 +37,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+SPDX-License-Identifier: MIT
